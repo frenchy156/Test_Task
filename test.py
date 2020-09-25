@@ -41,6 +41,8 @@ def email_send(driver):
     email_text.send_keys("Куликов Кирилл Геннадиевич" + " ")
     email_text.send_keys("https://github.com/frenchy156/Test_Task")
 
+    time.sleep(3)
+    
     driver.find_element_by_xpath("//span[@class='button2__wrapper'][@tabindex='570']").click()
     driver.find_element_by_xpath("//button[@class='c2185 c2160 c2196 c2171 c21104 c2180']").click()
 
