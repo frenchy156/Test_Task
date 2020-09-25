@@ -44,6 +44,9 @@ def email_send(driver):
     time.sleep(3)
     
     driver.find_element_by_xpath("//span[@class='button2__wrapper'][@tabindex='570']").click()
+
+    time.sleep(3)
+    
     driver.find_element_by_xpath("//button[@class='c2185 c2160 c2196 c2171 c21104 c2180']").click()
 
 if __name__ == "__main__" :
